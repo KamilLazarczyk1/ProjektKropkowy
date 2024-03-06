@@ -15,6 +15,14 @@ canvas {
     height: 100vh;
 }
 
+.rotating-image2 {
+    position: absolute;
+    bottom: 60px; /* Adjust distance from bottom */
+    left: 60px; /* Adjust distance from right */
+    width: 200px; /* Adjust width as needed */
+    height: 800px; /* Adjust height as needed */
+    border: 2px solid black; /* Optional border */
+}
 .rotating-image {
     position: absolute;
     bottom: 60px; /* Adjust distance from bottom */
@@ -23,6 +31,14 @@ canvas {
     height: 200px; /* Adjust height as needed */
     border: 2px solid black; /* Optional border */
     animation: rotate 5s linear infinite; /* Change duration or animation timing as needed */
+}
+.rotating-image3 {
+    position: absolute;
+    top: 60px; /* Adjust distance from bottom */
+    right: 60px; /* Adjust distance from right */
+    width: 200px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    border: 2px solid black; /* Optional border */
 }
 
 @keyframes rotate {
