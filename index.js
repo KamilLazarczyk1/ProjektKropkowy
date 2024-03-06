@@ -1,0 +1,1 @@
+const mainCanvas = document.querySelector("canvas")
