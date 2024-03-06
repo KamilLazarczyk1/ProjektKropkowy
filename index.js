@@ -7,8 +7,8 @@ function drawDots(ctx, dotCount)
 {
     for(i = 0; i < dotCount; i++)
     {
-        x = Math.floor(Math.random() * 798) + 1;
-        y = Math.floor(Math.random() * 798) + 1;
+        x = Math.floor(Math.random() * 758) + 20;
+        y = Math.floor(Math.random() * 758) + 20;
         dots[i] = ctx.fillRect(x, y, 3, 3);
     }
 
