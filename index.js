@@ -35,8 +35,8 @@ function findDotsInBetween(dot1, dot2, cDots) {
     const radius = Math.sqrt(Math.pow((XS - dot1.x), 2) + Math.pow((YS - dot1.y), 2))
     // ctx.beginPath();
     // ctx.arc(XS, YS, radius, 0, 2 * Math.PI, false);
-    // ctx.lineWidth = 3; // This will make the circle "empty" inside
-    // ctx.strokeStyle = '#003300'; // Color of the circle
+    // ctx.lineWidth = 3;
+    // ctx.strokeStyle = '#003300';
     // ctx.stroke();
     cDots.forEach(el => {
         const distanceElToCenter = Math.sqrt(Math.pow((XS - el.x), 2) + Math.pow((YS - el.y), 2))
